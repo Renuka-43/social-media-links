@@ -1,3 +1,4 @@
+
 body 
 {
     text-align: center;
@@ -120,3 +121,126 @@ footer p a:hover{
         background-position:0% 50%;
     }
 } 
+body 
+{
+    text-align: center;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease; 
+}
+
+/* Subtitles */
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* General link container */
+.card {
+    display:inline-block;
+    flex-direction: row;
+    text-align: center;
+    background: lightcyan;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ .card:hover {
+    transform: translate3d(0, -8px,0);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+} 
+
+/* Images inside links */
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+ .card img:hover {
+    transform: scale(1.1);
+    filter: hue-rotate(180deg) brightness(0.8); 
+    box-shadow: 5px 10px 20px rgba(0,0,255,0.5);
+}
+
+
+/* Links */
+.card a {
+    display:block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0077cc;
+    transition: color 0.3s ease;
+}
+h1:hover{
+    transform:scale(1.1);
+    box-shadow: 5px 5px 15px palevioletred;
+}
+footer{
+    color:black;
+    background-color: #fff;
+    padding:40px;
+    margin:45px;
+    display:block;
+    justify-content: center;
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+
+}
+
+footer:hover{
+
+    transform:scale(1.1);
+    box-shadow:10px 5px 5px palevioletred;
+}
+footer p a{
+    transition: transform 0.3s ease,box-shadow 0.2s ease;
+
+}
+footer p a:hover{
+    transform:scale(1.1);
+    box-shadow:0px 0px 10px rgba(255,255,255,255);
+
+
+}
+.animated-background {
+    background: linear-gradient(to right, #ff76ff, #862de2, #76ffea);;
+    background-size: 400% 400%;
+    animation: animate-background 10s  infinite ease-in-out;
+}
+
+@keyframes animate-background{
+    0%{
+        background-position:0% 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position:0% 50%;
+    }
+} 
+
