@@ -65,17 +65,6 @@ This project was created to practice:
 
 ---
 
-## 📸 Preview
-
-Add a screenshot of your project here.
-
-```
-Social-Media-Links/
-│
-└── screenshots/
-      home.png
-```
-
 
 
 ## 🔮 Future Enhancements
