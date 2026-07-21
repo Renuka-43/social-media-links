@@ -76,13 +76,7 @@ Social-Media-Links/
       home.png
 ```
 
-Example:
 
-```markdown
-![Project Preview](screenshots/home.png)
-```
-
----
 
 ## 🔮 Future Enhancements
 
