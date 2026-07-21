@@ -91,19 +91,5 @@ Example:
 - Custom Themes
 - Social Media API Integration
 - Contact Form
-- Profile Picture Upload
 
----
 
-## 👩‍💻 Author
-
-**Dasoju Renuka**
-
-- GitHub: https://github.com/your-github-username
-- LinkedIn: https://linkedin.com/in/your-linkedin-profile
-
----
-
-## ⭐ Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub!
